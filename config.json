@@ -1,0 +1,34 @@
+{"data": [
+    {
+        "discord": {
+            "token": "xxxx"
+        },
+        "mysql": {
+            "db_host": "localhost",
+            "db_user": "root",
+            "db_pass": "xxxx",
+            "db": "xxxx"
+        },
+        "logging": {
+            "print_level": 3,
+            "file": "log.txt",
+            "file_level": 3
+        },
+        "CRYPTOTICKER": {
+            "BASE_CURRENCY": "ltc",
+            "URL": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=ltc&ids=",
+            "COIN_LIST": "https://api.coingecko.com/api/v3/coins/list",
+            "SUPPORTED_CURRENCIES": "https://api.coingecko.com/api/v3/simple/supported_vs_currencies"
+        },
+        "command_channels": {
+            "help": ["bot-spam"],
+            "uptime": ["bot-spam"],
+            "invite": ["bot-spam"],
+            "stats": ["stats"],
+            "mining": ["stats"]
+        },
+        "owners": ["379074913757036554"],
+        "prefix": ".",
+        "description": "XUN-price-Bot"
+    }
+]}
