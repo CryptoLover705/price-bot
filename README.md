@@ -27,13 +27,13 @@ systemctl status mysql.service
 ```
 You should see a status message that says "active (running)".
 ## Update Python
-Python should be updated to version 3.6 because version 3.5 is not compatible with some libraries
+Python should be updated to version 3.6 or later because version 3.5 is not compatible with some libraries
 ```
-sudo add-apt-repository ppa:jonathonf/python-3.6
+sudo add-apt-repository ppa:jonathonf/python-3.7
 sudo apt update
-sudo apt-get install python3.6
-sudo apt-get install python3.6-dev
-sudo apt-get install python3.6-venv
+sudo apt-get install python3.7
+sudo apt-get install python3.7-dev
+sudo apt-get install python3.7-venv
 ```
 ## Install Python's pip
 Python's pip is a useful tool used to install python libraries
@@ -45,9 +45,9 @@ sudo python3.6 get-pip.py
 ```
 pip install json-rpc
 ```
-## Link python3 to python3.6
+## Link python3 to python3.7
 ```
-sudo ln -s /usr/bin/python3.6 /usr/local/bin/python3
+sudo ln -s /usr/bin/python3.7 /usr/local/bin/python3
 ```
 ## Install Discord Library
 Install the discord library used for the bot, This uses the old discord libraries 
